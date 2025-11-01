@@ -44,7 +44,7 @@ const RSVPSection = () => {
                 <Calendar className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-xl font-display font-semibold mb-2 text-foreground">RSVP Deadline</h3>
-              <p className="text-lg text-muted-foreground">December 08, 2025</p>
+              <p className="text-lg text-muted-foreground">December 15, 2025</p>
             </div>
 
             {/* RSVP Message */}
@@ -59,7 +59,7 @@ const RSVPSection = () => {
             </div>
 
             {/* RSVP Button */}
-            <a href="https://rustin-isabel-rsvp.replit.app" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:renecelia@example.com?subject=Wedding RSVP">
               <button
                 className="animated-rsvp-btn"
                 aria-label="RSVP to Wedding"
