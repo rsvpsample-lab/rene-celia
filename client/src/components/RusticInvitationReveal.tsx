@@ -121,11 +121,11 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
               radial-gradient(circle at 80% 70%, rgba(139,115,85,0.05) 0%, transparent 50%)
             `,
             backgroundSize: '30px 30px, 30px 30px, 200px 200px, 200px 200px',
-            border: '3px solid #333333',
+            border: '3px solid hsl(45, 40%, 45%)',
             boxShadow: `
-              0 20px 60px rgba(51,51,51,0.4),
+              0 20px 60px rgba(166, 124, 82, 0.4),
               inset 0 0 60px rgba(255,248,220,0.5),
-              0 0 0 1px rgba(51,51,51,0.2)
+              0 0 0 1px rgba(166, 124, 82, 0.2)
             `
           }}
         >
@@ -194,11 +194,11 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
         <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
           <div className="relative">
             <svg width="60" height="60" viewBox="0 0 60 60">
-              <circle cx="30" cy="30" r="28" fill="black" opacity="0.9"/>
-              <circle cx="30" cy="30" r="24" fill="black"/>
+              <circle cx="30" cy="30" r="28" fill="white" opacity="0.9"/>
+              <circle cx="30" cy="30" r="24" fill="white"/>
             </svg>
             <div className="absolute inset-0 flex items-center justify-center">
-              <img src={image_removebg_preview__5_} alt="I&R" className="h-16 w-16 object-contain" />
+              <img src={image_removebg_preview__5_} alt="I&R" className="h-12 w-12 object-contain" />
             </div>
             {/* Wax drips */}
             <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-4 h-3 bg-gradient-to-b from-white to-transparent rounded-b-full opacity-70"/>

@@ -128,10 +128,10 @@ const MusicControl = ({ audioRef }: MusicControlProps) => {
             onClick={toggleMusic}
             className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-white/50"
             style={{
-              background: 'linear-gradient(135deg, rgba(23, 22, 16, 0.9) 0%, rgba(51, 51, 51, 0.8) 100%)',
+              background: 'linear-gradient(135deg, hsl(45, 40%, 45%) 0%, hsl(45, 45%, 50%) 100%)',
               backdropFilter: 'blur(10px)',
-              boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
-              border: '1px solid rgba(255, 255, 255, 0.2)'
+              boxShadow: '0 4px 16px rgba(166, 124, 82, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2)',
+              border: '1px solid rgba(166, 124, 82, 0.3)'
             }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
