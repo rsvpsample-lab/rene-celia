@@ -3,11 +3,12 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
 import { useAnimationContext } from '@/contexts/AnimationContext';
-import { Sparkles, Compass } from 'lucide-react';
+import { Heart, Home, Sparkles } from 'lucide-react';
 
-// Import new images
-import promiseImage from '@assets/OUR PROMISE_1760527169725.jpg';
-import futureImage from '@assets/OUR FUTURE SECTION_1760527169724.jpg';
+// Import 50th Anniversary love story images
+import weddingImage from '@assets/lovestory1_1762009416536.jpg';
+import anniversaryImage from '@assets/lovestory2_1762009416536.jpg';
+import usLifeImage from '@assets/lovestory3_1762009421262.jpg';
 
 // Register GSAP plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -21,17 +22,27 @@ const StorySection = () => {
   const storyCards = [
     {
       id: 1,
-      title: "Our Promise",
-      text: "Through every season, we promise to walk hand in hand, embracing both joy and challenge with unwavering love and faith.",
-      image: promiseImage,
-      icon: Sparkles
+      title: "Our Wedding Day",
+      year: "1975",
+      text: "The beginning of our beautiful journey together. On this sacred day, we promised to love, honor, and cherish each other for a lifetime.",
+      image: weddingImage,
+      icon: Heart
     },
     {
       id: 2,
-      title: "Our Future",
-      text: "Together, we step into a future filled with hope and endless possibilities, building a life rooted in love and shared dreams.",
-      image: futureImage,
-      icon: Compass
+      title: "25 Years of Love",
+      year: "2000",
+      text: "Celebrating 25 years of marriage, we renewed our vows and commitment. Through joys and challenges, our love grew stronger with each passing day.",
+      image: anniversaryImage,
+      icon: Sparkles
+    },
+    {
+      id: 3,
+      title: "Life in the United States",
+      year: "Present",
+      text: "Building our life together in America, we continue to cherish every moment. Now celebrating 50 years of marriage, our love story continues.",
+      image: usLifeImage,
+      icon: Home
     }
   ];
 
@@ -147,10 +158,10 @@ const StorySection = () => {
           transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 3.8 } : { duration: 0 }}
         >
           <h2 className="text-4xl sm:text-5xl font-script italic font-black mb-6 sm:mb-8 text-foreground" data-testid="text-story-title">
-            Together Forever
+            50 Years of Love
           </h2>
           <p className="text-base sm:text-lg max-w-2xl mx-auto mb-4 text-foreground/90">
-            Scroll to discover our commitment to each other
+            Scroll to discover our journey from 1975 to today
           </p>
           
           {/* SVG Arrow Indicator */}
@@ -200,9 +211,12 @@ const StorySection = () => {
                     <card.icon className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-primary" strokeWidth={1.5} />
                   </div>
                   
-                  <h3 className="text-3xl sm:text-4xl lg:text-5xl font-script italic mb-4 sm:mb-6 text-foreground" data-testid={`text-story-card-${card.id}-title`}>
-                    {card.title}
-                  </h3>
+                  <div className="mb-4">
+                    <p className="text-sm sm:text-base text-primary font-semibold tracking-wider mb-2">{card.year}</p>
+                    <h3 className="text-3xl sm:text-4xl lg:text-5xl font-script italic text-foreground" data-testid={`text-story-card-${card.id}-title`}>
+                      {card.title}
+                    </h3>
+                  </div>
                   
                   <p className="text-lg sm:text-xl leading-relaxed text-foreground/90" data-testid={`text-story-card-${card.id}-text`}>
                     {card.text}
@@ -271,15 +285,15 @@ const StorySection = () => {
 
               <div className="relative z-10 space-y-6 sm:space-y-8">
                 <h3 className="text-4xl sm:text-5xl md:text-6xl font-script italic font-black mb-6 sm:mb-8 text-primary" data-testid="text-story-vow-title">
-                  Our Vow
+                  Golden Anniversary
                 </h3>
                 
                 <div className="max-w-2xl mx-auto">
                   <p className="text-xl sm:text-2xl leading-relaxed italic mb-4 text-foreground">
-                    "Above all, clothe yourselves with love, which binds us all together in perfect harmony."
+                    "50 years of love, laughter, and memories. Together we celebrate a lifetime of devotion and the blessings of enduring love."
                   </p>
                   <p className="text-base sm:text-lg font-body text-foreground/80">
-                    Colossians 3:14
+                    1975 - 2025
                   </p>
                 </div>
                 

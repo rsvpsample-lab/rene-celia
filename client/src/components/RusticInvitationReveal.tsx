@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import prenup1 from '@assets/2nd Section 1_1760522459683.jpg';
-import prenup2 from '@assets/2nd Section 2_1760522459683.jpg';
-import prenup3 from '@assets/2nd Section 3_1760522459684.jpg';
+import prenup1 from '@assets/hero_1762009405020.JPG';
+import prenup2 from '@assets/cover2_1762009405020.JPG';
+import prenup3 from '@assets/cover1_1762009405019.JPG';
 import monogram from '../assets/I&R-monogram.png';
 
 import MONOGRAM_removebg_preview from "@assets/MONOGRAM-removebg-preview.png";

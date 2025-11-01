@@ -1,10 +1,9 @@
 import { useAnimationContext } from '@/contexts/AnimationContext';
 
-// Image loop images - Nature wedding photos
-import imageLoop1 from '@assets/3_1760525670925.jpg';
-import imageLoop2 from '@assets/7_1760525677152.jpg';
-import imageLoop3 from '@assets/8_1760525677154.jpg';
-import imageLoop4 from '@assets/11_1760525682408.jpg';
+// Image loop images - 50th Anniversary photos
+import imageLoop1 from '@assets/cover1_1762009405019.JPG';
+import imageLoop2 from '@assets/cover2_1762009405020.JPG';
+import imageLoop3 from '@assets/cover3_1762009405020.JPG';
 
 const ImageLoop = () => {
   const { animationsEnabled } = useAnimationContext();
@@ -12,11 +11,9 @@ const ImageLoop = () => {
     imageLoop1,
     imageLoop2,
     imageLoop3,
-    imageLoop4,
     imageLoop1,
     imageLoop2,
-    imageLoop3,
-    imageLoop4
+    imageLoop3
   ];
 
   return (
