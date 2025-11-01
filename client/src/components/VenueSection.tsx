@@ -10,26 +10,15 @@ const VenueSection = () => {
   const { animationsEnabled } = useAnimationContext();
   const venues = [
     {
-      title: 'Ceremony',
-      name: 'Parish of the Holy Family',
-      address: 'Imus, Cavite',
+      title: 'Ceremony & Reception',
+      name: 'Milagros Garden',
+      address: 'Siling Bata, Pandi, Bulacan',
       image: ceremonyImage,
-      mapUrl: 'https://maps.app.goo.gl/9wZ7WhKAviVYcMP78',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Parish+of+the+Holy+Family,Imus+Cavite&zoom=15',
-      description: 'Join us at the Parish of the Holy Family for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
-      details: 'The ceremony begins promptly at 2:00 PM. Please arrive early to be seated. Dress code: Black Formal Attire.',
-      startTime: '2:00 PM'
-    },
-    {
-      title: 'Reception',
-      name: 'Casa Dominguez',
-      address: 'Imus, Cavite',
-      image: receptionImage,
-      mapUrl: 'https://maps.app.goo.gl/xWTnYdJnAFcQ6VaG8',
-      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Casa+Dominguez,Imus+Cavite&zoom=15',
-      description: 'Celebrate with us at Casa Dominguez, an elegant venue where we will share joy, laughter, and create unforgettable memories together.',
-      details: 'Join us immediately following the ceremony for an evening of fine dining, dancing, and celebration.',
-      startTime: '5:30 PM'
+      mapUrl: 'https://maps.app.goo.gl/YOUR_MAP_LINK',
+      mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Milagros+Garden,Siling+Bata+Pandi+Bulacan&zoom=15',
+      description: 'Join us at Milagros Garden for our sacred wedding ceremony and celebration. This beautiful venue will witness our vows of eternal love as we begin our journey together.',
+      details: 'Arrival: 2:30 PM | Ceremony: 3:00 PM | Reception to follow. The celebration will last 6 hours. Please arrive on time to be seated before the ceremony begins.',
+      startTime: '3:00 PM'
     }
   ];
 
