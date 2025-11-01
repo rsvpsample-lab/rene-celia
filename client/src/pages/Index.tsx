@@ -110,13 +110,13 @@ const Index = () => {
           <StorySection />
           <CoverSection
             imageUrl={cover1Image}
-            alt="Isabel & Rustin Wedding Cover Image 1"
+            alt="Rene & Celia Wedding Cover Image 1"
           />
           <ScrollTriggeredTimeline />
           <VenueSection />
           <CoverSection
             imageUrl={cover2Image}
-            alt="Andrei & Sam Wedding Cover Image 2"
+            alt="Rene & Celia Wedding Cover Image 2"
           />
           <DressCodeSection />
           <HashtagGiftsSection />
@@ -125,7 +125,7 @@ const Index = () => {
           <EntourageSection />
           <CoverSection
             imageUrl={cover3Image}
-            alt="Andrei & Sam Wedding Cover Image 3"
+            alt="Rene & Celia Wedding Cover Image 3"
           />
           <FAQSection />
           <Footer />
