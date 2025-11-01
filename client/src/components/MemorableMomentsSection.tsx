@@ -3,36 +3,38 @@ import { motion } from 'framer-motion';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { X } from 'lucide-react';
 
-// Prenup photos
-import prenup1 from '@assets/1_1760542653480.jpg';
-import prenup2 from '@assets/2_1760542653481.jpg';
-import prenup3 from '@assets/3_1760542663127.jpg';
-import prenup4 from '@assets/4_1760542663127.jpg';
-import prenup5 from '@assets/5_1760542663127.jpg';
-import prenup6 from '@assets/6_1760542663128.jpg';
-import prenup7 from '@assets/7_1760542663128.jpg';
-import prenup8 from '@assets/8_1760542663129.jpg';
-import prenup9 from '@assets/9_1760542663129.jpg';
-import prenup10 from '@assets/10_1760542663130.jpg';
-import prenup11 from '@assets/11_1760542663130.jpg';
-import prenup12 from '@assets/12_1760542663131.jpg';
+// Memory photos
+import prenup1 from '@assets/prenup_1762012408536.JPG';
+import prenup2 from '@assets/prenup1_1762012408537.JPG';
+import prenup3 from '@assets/prenup2_1762012408538.JPG';
+import prenup4 from '@assets/prenup3_1762012408538.JPG';
+import prenup5 from '@assets/prenup4_1762012408538.JPG';
+import prenup6 from '@assets/prenup5_1762012408539.JPG';
+import prenup7 from '@assets/prenup7_1762012408540.JPG';
+import prenup8 from '@assets/prenup8_1762012408541.JPG';
+import prenup9 from '@assets/prenup9_1762012408542.JPG';
+import prenup10 from '@assets/prenup10_1762012408543.JPG';
+import prenup11 from '@assets/prenup11_1762012408543.JPG';
+import prenup12 from '@assets/prenup12_1762012408544.JPG';
+import prenup13 from '@assets/prenup13_1762012408544.jpg';
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    { src: prenup1, alt: "Prenup photo 1", height: "h-80" },
-    { src: prenup2, alt: "Prenup photo 2", height: "h-64" },
-    { src: prenup3, alt: "Prenup photo 3", height: "h-72" },
-    { src: prenup4, alt: "Prenup photo 4", height: "h-80" },
-    { src: prenup5, alt: "Prenup photo 5", height: "h-96" },
-    { src: prenup6, alt: "Prenup photo 6", height: "h-72" },
-    { src: prenup7, alt: "Prenup photo 7", height: "h-64" },
-    { src: prenup8, alt: "Prenup photo 8", height: "h-80" },
-    { src: prenup9, alt: "Prenup photo 9", height: "h-72" },
-    { src: prenup10, alt: "Prenup photo 10", height: "h-64" },
-    { src: prenup11, alt: "Prenup photo 11", height: "h-96" },
-    { src: prenup12, alt: "Prenup photo 12", height: "h-80" }
+    { src: prenup1, alt: "Memory in Reno", height: "h-80" },
+    { src: prenup2, alt: "Making hearts together", height: "h-64" },
+    { src: prenup3, alt: "Mountain adventure", height: "h-72" },
+    { src: prenup4, alt: "Mountain views", height: "h-80" },
+    { src: prenup5, alt: "Christmas memories", height: "h-96" },
+    { src: prenup6, alt: "Birthday celebration", height: "h-72" },
+    { src: prenup7, alt: "City adventures", height: "h-64" },
+    { src: prenup8, alt: "Urban explorations", height: "h-80" },
+    { src: prenup9, alt: "Lion's Head adventure", height: "h-72" },
+    { src: prenup10, alt: "Winter wonderland", height: "h-64" },
+    { src: prenup11, alt: "Birthday joy", height: "h-96" },
+    { src: prenup12, alt: "Park moments", height: "h-80" },
+    { src: prenup13, alt: "Holiday cheer", height: "h-72" }
   ];
 
   return (
@@ -52,10 +54,10 @@ const MemorableMomentsSection = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
         >
           <h2 className="text-5xl font-script italic font-black text-gold-bright mb-8" data-testid="text-prenup-photos-title">
-            Save the Date Photos
+            50 Years of Memories
           </h2>
           <p className="text-xl font-script italic max-w-2xl mx-auto leading-relaxed text-white/90">
-            Captured moments before forever begins
+            A lifetime of love, laughter, and adventures together
           </p>
         </motion.div>
 
