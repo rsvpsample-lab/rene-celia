@@ -6,9 +6,9 @@ import { useAnimationContext } from '@/contexts/AnimationContext';
 import { Heart, Home, Sparkles } from 'lucide-react';
 
 // Import 50th Anniversary love story images
-import weddingImage from '@assets/lovestory1_1762009416536.jpg';
-import anniversaryImage from '@assets/lovestory2_1762009416536.jpg';
-import usLifeImage from '@assets/lovestory3_1762009421262.jpg';
+import weddingImage from '@assets/lovestory1_1762011060350.jpg';
+import anniversaryImage from '@assets/lovestory2_1762011060351.jpg';
+import usLifeImage from '@assets/lovestory3_1762011060352.jpg';
 
 // Register GSAP plugin
 gsap.registerPlugin(ScrollTrigger);

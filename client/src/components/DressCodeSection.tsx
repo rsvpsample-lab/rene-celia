@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
-import guestsImage from "@assets/guests_1762009411360.png";
-import principalSponsorsImage from "@assets/principal sponsors_1762009411360.png";
+import guestsImage from "@assets/guests_1762011060348.png";
+import principalSponsorsImage from "@assets/principal sponsors_1762011065541.png";
 
 const DressCodeSection = () => {
   return (

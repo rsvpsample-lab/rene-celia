@@ -3,8 +3,8 @@ import { MapPin, ExternalLink, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useAnimationContext } from '@/contexts/AnimationContext';
 
-import ceremonyImage from "@assets/ceremony and reception_1762009411361.jpg";
-import receptionImage from "@assets/ceremony and reception_1762009411361.jpg";
+import ceremonyImage from "@assets/ceremony and reception_1762011060345.jpg";
+import receptionImage from "@assets/ceremony and reception_1762011060345.jpg";
 
 const VenueSection = () => {
   const { animationsEnabled } = useAnimationContext();
