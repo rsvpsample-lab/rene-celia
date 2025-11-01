@@ -2,85 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Modern Elegant Design System - White & Dark Gray */
+/* Modern Elegant Design System - White & Matte Gold */
 
 @layer base {
   :root {
-    /* 70-20-10 Color Rule: Elegant White & Gray Theme */
+    /* 70-20-10 Color Rule: Elegant White & Matte Gold Theme */
     
     /* 70% PRIMARY - Pure White Background */
     --background: 0 0% 100%; /* Pure white background */
-    --foreground: 0 0% 20%; /* #333333 dark gray text */
+    --foreground: 45 40% 45%; /* Matte gold text */
 
     /* Card Colors - Primary Palette */
-    --card: 0 0% 98%; /* Very light gray cards */
-    --card-foreground: 0 0% 20%; /* #333333 text on cards */
+    --card: 45 25% 98%; /* Very light gold cards */
+    --card-foreground: 45 40% 45%; /* Matte gold text on cards */
 
     /* Popover Colors - Primary Palette */
     --popover: 0 0% 100%; /* White popover */
-    --popover-foreground: 0 0% 20%; /* #333333 text */
+    --popover-foreground: 45 40% 45%; /* Matte gold text */
 
     /* Brand Color */
-    --brand: 0 0% 20%; /* #333333 - Main brand color */
+    --brand: 45 40% 45%; /* Matte gold - Main brand color */
     
-    /* 20% SECONDARY - Dark Gray (Supporting) */
-    --primary: 0 0% 20%; /* #333333 primary */
-    --primary-foreground: 0 0% 100%; /* White text on dark gray */
+    /* 20% SECONDARY - Matte Gold (Supporting) */
+    --primary: 45 40% 45%; /* Matte gold primary */
+    --primary-foreground: 0 0% 100%; /* White text on matte gold */
 
     /* Secondary Colors - Supporting Palette */
-    --secondary: 0 0% 30%; /* Lighter gray secondary */
-    --secondary-foreground: 0 0% 100%; /* White text on gray */
+    --secondary: 45 45% 55%; /* Medium gold secondary */
+    --secondary-foreground: 0 0% 100%; /* White text on gold */
 
     /* Muted Colors - Supporting Palette */
-    --muted: 0 0% 95%; /* Light gray muted */
-    --muted-foreground: 0 0% 40%; /* Medium gray text */
+    --muted: 45 30% 92%; /* Light gold muted */
+    --muted-foreground: 45 35% 55%; /* Medium gold text */
 
-    /* 10% ACCENT - Dark Gray Accent (Standout Elements & CTAs) */
-    --accent: 0 0% 20%; /* #333333 accent */
+    /* 10% ACCENT - Matte Gold Accent (Standout Elements & CTAs) */
+    --accent: 45 40% 45%; /* Matte gold accent */
     --accent-foreground: 0 0% 100%; /* White text */
 
-    /* Gray/Special Accent - for CTAs and highlights */
-    --gold: 0 0% 20%; /* #333333 for buttons */
-    --gold-foreground: 0 0% 100%; /* White text on dark gray */
+    /* Gold/Special Accent - for CTAs and highlights */
+    --gold: 45 40% 45%; /* Matte gold for buttons */
+    --gold-foreground: 0 0% 100%; /* White text on matte gold */
     
-    /* Bright Gray - for emphasis */
-    --gold-bright: 0 0% 25%; /* Slightly lighter gray */
+    /* Bright Gold - for emphasis */
+    --gold-bright: 45 50% 60%; /* Brighter gold */
 
     /* Natural Earth Palette - Soft accents */
-    --rose-gold: 0 0% 90%; /* Soft light gray */
-    --rose-gold-dark: 0 0% 80%; /* Darker light gray */
-    --amber-glow: 0 0% 75%; /* Medium light gray */
-    --warm-light: 0 0% 85%; /* Warm light gray */
+    --rose-gold: 35 35% 85%; /* Soft rose gold */
+    --rose-gold-dark: 35 40% 75%; /* Darker rose gold */
+    --amber-glow: 45 45% 70%; /* Amber glow */
+    --warm-light: 42 35% 88%; /* Warm light gold */
 
     /* Natural Accents Palette - Organic colors */
-    --city-blue: 0 0% 70%; /* Gray accent */
-    --city-cyan: 0 0% 65%; /* Gray accent */
-    --city-amber: 0 0% 60%; /* Gray accent */
-    --city-purple: 0 0% 50%; /* Medium gray */
+    --city-blue: 45 30% 70%; /* Gold accent */
+    --city-cyan: 45 35% 65%; /* Gold accent */
+    --city-amber: 45 40% 60%; /* Gold amber */
+    --city-purple: 45 35% 50%; /* Medium gold */
 
     /* Destructive */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 0 0% 90%; /* Light gray border */
-    --input: 0 0% 98%; /* Very light gray input */
-    --ring: 0 0% 20%; /* #333333 accent ring */
+    --border: 45 25% 88%; /* Light gold border */
+    --input: 45 20% 96%; /* Very light gold input */
+    --ring: 45 40% 45%; /* Matte gold accent ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
-    /* White & Gray Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 0%, 98%));
-    --gradient-gold: linear-gradient(135deg, hsl(0, 0%, 20%), hsl(0, 0%, 30%));
-    --gradient-night: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(0, 0%, 98%) 100%);
-    --gradient-bokeh: radial-gradient(ellipse at center, hsl(0, 0%, 20%) 0%, transparent 60%);
+    /* White & Gold Gradients */
+    --gradient-elegant: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(45, 25%, 98%));
+    --gradient-gold: linear-gradient(135deg, hsl(45, 40%, 45%), hsl(45, 45%, 55%));
+    --gradient-night: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(45, 25%, 98%) 100%);
+    --gradient-bokeh: radial-gradient(ellipse at center, hsl(45, 40%, 45%) 0%, transparent 60%);
 
-    /* Elegant Gray Shadows */
-    --shadow-elegant: 0 20px 50px -10px rgba(51, 51, 51, 0.15);
-    --shadow-soft: 0 10px 30px -5px rgba(51, 51, 51, 0.1);
-    --shadow-warm: 0 15px 40px -8px rgba(51, 51, 51, 0.12);
-    --shadow-glow: 0 0 30px rgba(51, 51, 51, 0.2);
+    /* Elegant Gold Shadows */
+    --shadow-elegant: 0 20px 50px -10px rgba(166, 124, 82, 0.15);
+    --shadow-soft: 0 10px 30px -5px rgba(166, 124, 82, 0.1);
+    --shadow-warm: 0 15px 40px -8px rgba(166, 124, 82, 0.12);
+    --shadow-glow: 0 0 30px rgba(166, 124, 82, 0.2);
 
     /* Elegant Typography Scale */
     --font-display: 'Boska', 'Cormorant Garamond', serif; /* Headers - Boska 700 */
@@ -92,14 +92,14 @@
     --transition-elegant: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 0 0% 20%;
-    --sidebar-primary: 0 0% 20%;
+    --sidebar-background: 45 25% 98%;
+    --sidebar-foreground: 45 40% 45%;
+    --sidebar-primary: 45 40% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 25%;
+    --sidebar-accent: 45 45% 55%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 0 0% 90%;
-    --sidebar-ring: 0 0% 20%;
+    --sidebar-border: 45 25% 88%;
+    --sidebar-ring: 45 40% 45%;
   }
 
   /* Custom Wedding Animations */
@@ -145,10 +145,10 @@
 
   @keyframes goldGlow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(51, 51, 51, 0.2);
+      box-shadow: 0 0 20px rgba(166, 124, 82, 0.2);
     }
     50% {
-      box-shadow: 0 0 40px rgba(51, 51, 51, 0.3);
+      box-shadow: 0 0 40px rgba(166, 124, 82, 0.3);
     }
   }
 
@@ -296,7 +296,7 @@
   }
 
   .hover-glow:hover {
-    box-shadow: 0 0 30px rgba(51, 51, 51, 0.3);
+    box-shadow: 0 0 30px rgba(166, 124, 82, 0.3);
   }
 
   .gold-underline {
@@ -306,7 +306,7 @@
   .gold-underline::after {
     content: '';
     @apply absolute bottom-0 left-0 h-0.5;
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(45, 40%, 45%);
     width: 0;
     transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -343,7 +343,7 @@
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(51, 51, 51, 0.1);
+    border: 1px solid rgba(166, 124, 82, 0.1);
   }
 
   /* Clean Mobile Styles */
@@ -413,12 +413,12 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(51, 51, 51, 0.3);
+    background-color: rgba(166, 124, 82, 0.3);
     @apply rounded-full;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(166, 124, 82, 0.5);
   }
 
   /* Remove any unwanted borders */
@@ -446,7 +446,7 @@
     outline-offset: 2px;
   }
 
-  /* Modern Dark Gray Button with Glow */
+  /* Modern Matte Gold Button with Glow */
   .shadow__btn {
     padding: 10px 20px;
     border: none;
@@ -459,7 +459,7 @@
     transition: 0.5s;
     transition-property: box-shadow;
     background: hsl(var(--primary));
-    box-shadow: 0 0 25px rgba(51, 51, 51, 0.3);
+    box-shadow: 0 0 25px rgba(166, 124, 82, 0.3);
   }
 
   .shadow__btn:hover {
@@ -525,10 +525,10 @@
     animation-play-state: paused;
   }
 
-  /* Alternating Section Backgrounds - White & Gray Theme */
+  /* Alternating Section Backgrounds - White & Gold Theme */
   .section-pastel-blue {
     background-color: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 20%);
+    color: hsl(45, 40%, 45%);
     position: relative;
     overflow: hidden;
   }
@@ -539,8 +539,8 @@
   }
 
   .section-hard-blue {
-    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 0%, 98%));
-    color: hsl(0, 0%, 20%);
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(45, 25%, 98%));
+    color: hsl(45, 40%, 45%);
     position: relative;
     overflow: hidden;
   }
