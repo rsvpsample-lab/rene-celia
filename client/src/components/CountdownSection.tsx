@@ -53,7 +53,7 @@ const CountdownSection = () => {
             December 28, 2025
           </p>
           <h2 className="text-4xl font-display text-foreground mb-2" data-testid="text-countdown-title">
-            Forever starts soon
+            Celebrating 50 Years
           </h2>
         </motion.div>
 
