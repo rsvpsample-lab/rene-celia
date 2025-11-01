@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import groomImage from '@assets/groom_1762011438072.JPG';
-import coupleImage from '@assets/hero_1762011431723.png';
+import coupleImage from '@assets/cover2_1762012267080.JPG';
 import brideImage from '@assets/bride_1762011443845.png';
 import monogram from '../assets/I&R-monogram.png';
 
