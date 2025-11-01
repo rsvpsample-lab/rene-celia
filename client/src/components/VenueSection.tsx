@@ -14,7 +14,7 @@ const VenueSection = () => {
       name: 'Milagros Garden',
       address: 'Siling Bata, Pandi, Bulacan',
       image: ceremonyImage,
-      mapUrl: 'https://maps.app.goo.gl/YOUR_MAP_LINK',
+      mapUrl: 'https://maps.app.goo.gl/bLNMFcNXt5rJMSaZ7',
       mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Milagros+Garden,Siling+Bata+Pandi+Bulacan&zoom=15',
       description: 'Join us at Milagros Garden for our sacred wedding ceremony and celebration. This beautiful venue will witness our vows of eternal love as we begin our journey together.',
       details: 'Arrival: 2:30 PM | Ceremony: 3:00 PM | Reception to follow. The celebration will last 6 hours. Please arrive on time to be seated before the ceremony begins.',
