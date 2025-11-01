@@ -1,3 +1,6 @@
+import { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
+
 interface CoverSectionProps {
   imageUrl: string;
   alt: string;
@@ -6,11 +9,24 @@ interface CoverSectionProps {
 
 const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
   const isVideo = imageUrl.match(/\.(mp4|mov|webm|ogg)$/i);
+  const containerRef = useRef<HTMLDivElement>(null);
+  
+  // Track scroll progress of the container
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end start"]
+  });
+  
+  // Transform scroll progress to scale value (0.8 to 1.1)
+  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1.1]);
 
   return (
-    <section className={`relative w-full overflow-hidden ${className}`}>
+    <section ref={containerRef} className={`relative w-full overflow-hidden ${className}`}>
       {/* Full Width Image/Video Container */}
-      <div className="relative w-screen left-1/2 -translate-x-1/2 overflow-hidden">
+      <motion.div 
+        className="relative w-screen left-1/2 -translate-x-1/2 overflow-hidden"
+        style={{ scale }}
+      >
         {isVideo ? (
           <video
             src={imageUrl}
@@ -71,7 +87,7 @@ const CoverSection = ({ imageUrl, alt, className = "" }: CoverSectionProps) => {
             data-testid="cover-image"
           />
         )}
-      </div>
+      </motion.div>
     </section>
   );
 };
