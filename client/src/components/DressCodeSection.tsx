@@ -49,7 +49,7 @@ const DressCodeSection = () => {
                     </h3>
                     <p className="text-sm text-foreground/80 mb-3">(Parents and Principal Sponsors)</p>
                     <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                      <span className="text-sm font-normal text-foreground">FORMAL ATTIRE</span>
+                      <span className="text-sm font-normal text-foreground">Black Suit / Formal Gown</span>
                     </div>
                   </div>
                 </motion.div>
@@ -62,11 +62,11 @@ const DressCodeSection = () => {
                   transition={{ duration: 0.8, delay: 8.5 }}
                 />
                 <div className="mt-6">
-                  <p className="text-sm text-foreground/80 mb-3 text-center">Any Shades of Gray</p>
+                  <p className="text-sm text-foreground/80 mb-3 text-center">Taupe, Mocha, Dark Mocha Shades</p>
                   <div className="flex justify-center gap-3">
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#c8c8c6' }}></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#949597' }}></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#c1b6b0' }}></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#d2b48c' }}></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#967969' }}></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#6b4e3d' }}></div>
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const DressCodeSection = () => {
                       FOR GUESTS
                     </h3>
                     <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                      <span className="text-sm font-normal text-foreground">FORMAL ATTIRE</span>
+                      <span className="text-sm font-normal text-foreground">SEMI-FORMAL ATTIRE</span>
                     </div>
                   </div>
                 </motion.div>
@@ -107,11 +107,11 @@ const DressCodeSection = () => {
                   transition={{ duration: 0.8, delay: 8.8 }}
                 />
                 <div className="mt-6">
-                  <p className="text-sm text-foreground/80 mb-3 text-center">Shades of Black</p>
+                  <p className="text-sm text-foreground/80 mb-3 text-center">Long Sleeves, Polo, Dress - Nude Colors</p>
                   <div className="flex justify-center gap-3">
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#000000' }}></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#1a1a1a' }}></div>
-                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#2d2d2d' }}></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#f5e6d3' }}></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#e8d5c4' }}></div>
+                    <div className="w-12 h-12 rounded-full border-2 border-border shadow-md" style={{ backgroundColor: '#d4b5a1' }}></div>
                   </div>
                 </div>
               </div>
@@ -129,29 +129,28 @@ const DressCodeSection = () => {
           <h3 className="text-2xl font-display text-foreground text-center mb-8">Additional Guidelines</h3>
           
           <div className="grid md:grid-cols-2 gap-6">
-            {/* Ninong/Ninang */}
+            {/* Principal Sponsors Details */}
             <div className="bg-card/20 rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
                   <h4 className="text-base font-display font-semibold text-foreground mb-2">
-                    Ninong: Formal Coat & Slacks / Formal Attire<br />
-                    Ninang: Formal Dress / Formal Attire
+                    Principal Sponsors
                   </h4>
                   <p className="text-sm text-foreground/70">
-                    Please dress elegantly for this special occasion.
+                    Men: Black suit | Ladies: Formal gown in taupe, mocha, or dark mocha shades
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Guests */}
+            {/* Guests Details */}
             <div className="bg-card/20 rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
-                  <h4 className="text-base font-display font-semibold text-foreground mb-2">Guests: Formal Attire</h4>
-                  <p className="text-sm text-foreground/70">No jeans, no shirts, and no white dress for ladies. Strictly formal attire.</p>
+                  <h4 className="text-base font-display font-semibold text-foreground mb-2">Guests: Semi-Formal Attire</h4>
+                  <p className="text-sm text-foreground/70">Long sleeves, polo shirts, or dresses in nude colors. Please dress elegantly for this special occasion.</p>
                 </div>
               </div>
             </div>
