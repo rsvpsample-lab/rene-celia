@@ -26,15 +26,15 @@ const HeroSection = () => {
           {/* Date at the top - stacked vertically, aligned right */}
           <div className={`transition-all duration-700 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
             <div className="text-right space-y-1" data-testid="text-date">
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>12</p>
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>28</p>
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>25</p>
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 300, color: 'hsl(45, 40%, 45%)' }}>12</p>
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 300, color: 'hsl(45, 40%, 45%)' }}>28</p>
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light tracking-wider" style={{ fontFamily: 'Boska, serif', fontWeight: 300, color: 'hsl(45, 40%, 45%)' }}>25</p>
             </div>
           </div>
 
           {/* Names below */}
           <div>
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-tight" data-testid="text-main-invitation" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wide leading-tight" data-testid="text-main-invitation" style={{ fontFamily: 'Boska, serif', fontWeight: 300, color: 'hsl(45, 40%, 45%)' }}>
               {animationsEnabled ? (
                 <TypeAnimation
                   sequence={[
@@ -101,7 +101,7 @@ const HeroSection = () => {
 
         /* Custom underscore cursor for TypeAnimation */
         .typewriter-text .react-type-animation-cursor {
-          color: white;
+          color: hsl(45, 40%, 45%);
           animation: blink 1.2s infinite;
         }
 
