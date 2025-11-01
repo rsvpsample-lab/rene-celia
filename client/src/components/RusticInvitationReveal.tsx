@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import prenup1 from '@assets/hero_1762009405020.JPG';
-import prenup2 from '@assets/cover2_1762009405020.JPG';
-import prenup3 from '@assets/cover1_1762009405019.JPG';
+import groomImage from '@assets/groom_1762011438072.JPG';
+import coupleImage from '@assets/hero_1762011431723.png';
+import brideImage from '@assets/bride_1762011443845.png';
 import monogram from '../assets/I&R-monogram.png';
 
 import MONOGRAM_removebg_preview from "@assets/MONOGRAM-removebg-preview.png";
@@ -12,9 +12,9 @@ interface RusticInvitationRevealProps {
 
 const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealProps) => {
   const polaroids = [
-    { src: prenup1, alt: 'Soulmates', rotation: -8 },
-    { src: prenup2, alt: 'Forever', rotation: 2 },
-    { src: prenup3, alt: 'Beloved', rotation: -5 }
+    { src: groomImage, alt: 'Groom', rotation: -8 },
+    { src: coupleImage, alt: 'Couple', rotation: 2 },
+    { src: brideImage, alt: 'Bride', rotation: -5 }
   ];
 
   return (
