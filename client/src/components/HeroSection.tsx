@@ -33,7 +33,7 @@ const HeroSection = () => {
             {animationsEnabled ? (
               <TypeAnimation
                 sequence={[
-                  'ISABEL\n&\nRUSTIN',
+                  'RENE\n&\nCELIA',
                   () => {
                     setShowElements(true);
                   }
@@ -56,11 +56,11 @@ const HeroSection = () => {
                 }}
                 className="typewriter-text"
               >
-                ISABEL
+                RENE
                 <br />
                 &
                 <br />
-                RUSTIN
+                CELIA
               </span>
             )}
           </h1>
@@ -71,15 +71,15 @@ const HeroSection = () => {
             <div className="space-y-3">
               <div className="text-center">
                 <p className="text-lg sm:text-xl text-white font-light tracking-wide font-times" data-testid="text-date">
-                  01.31.2026 | Saturday
+                  12.28.2025 | Sunday
                 </p>
               </div>
               <div className="text-center">
                 <p className="text-lg sm:text-xl text-white font-light tracking-wide font-times" data-testid="text-venue">
-                  Parish of the Holy Family
+                  Milagros Garden
                 </p>
                 <p className="text-base sm:text-lg text-white font-light tracking-wide font-times">
-                  Casa Dominguez
+                  Siling Bata, Pandi, Bulacan
                 </p>
               </div>
             </div>
