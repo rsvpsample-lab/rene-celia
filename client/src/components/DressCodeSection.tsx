@@ -155,16 +155,16 @@ const DressCodeSection = () => {
               </div>
             </div>
 
-            {/* No white colors */}
+            {/* No Beige colors */}
             <div className="bg-card/20 rounded-xl p-6">
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 rounded-full bg-gold mt-2 flex-shrink-0"></div>
                 <div>
                   <h4 className="text-base font-display font-semibold text-foreground mb-2">
-                    No white colors
+                    No Beige colors
                   </h4>
                   <p className="text-sm text-foreground/70">
-                    Avoid wearing white, as this color is reserved for the bride.
+                    Avoid wearing beige, as this color is reserved for the bride and the groom.
                   </p>
                 </div>
               </div>

@@ -27,7 +27,7 @@ const FAQSection = () => {
     {
       question: "Will there be parking available?",
       icon: Calendar,
-      answer: "Yes, parking is available at both the ceremony and reception venues. Please follow the signs and staff directions upon arrival to ensure smooth parking arrangements for all guests."
+      answer: "Parking is available at both the ceremony and reception venues on a first-come, first-serve basis with limited slots. If parking is full, paid parking options are available nearby. Please arrive early to secure your spot."
     },
     {
       question: "When is the appropriate time to leave?",

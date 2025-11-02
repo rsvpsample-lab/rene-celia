@@ -166,14 +166,14 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
               className="text-lg md:text-xl text-foreground/90 leading-relaxed mb-6 italic"
               style={{ fontFamily: 'Georgia, serif' }}
             >
-              Come witness the moment we tie the knot and start our greatest adventure together
+              Come witness the moment as we renew our vows
             </p>
 
             <div
               className="text-base md:text-lg text-foreground/80"
             >
-              <p className="mb-2">with love, laughter,</p>
-              <p>and a lifetime of memories</p>
+              <p className="mb-2">Reaffirms commitment to each other,</p>
+              <p>celebrating enduring love and journey we had</p>
             </div>
 
             {/* Ornamental divider bottom */}

@@ -172,7 +172,7 @@ const EnvelopeAnimation = ({ isVisible, animationsEnabled, score = 0 }: Envelope
                     <div className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-400 h-1 w-24 mx-auto rounded-full mb-3"></div>
                     
                     <p className="text-sm md:text-base text-gray-700 italic leading-relaxed mb-3" style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}>
-                      Come witness the moment we tie the knot and start our greatest adventure together — with love, laughter, and a lifetime of memories.
+                      Come witness the moment as we renew our vows — Reaffirms commitment to each other, celebrating enduring love and journey we had.
                     </p>
                     
                     <div className="bg-amber-100 rounded-lg p-3 border-2 border-amber-300 shadow-lg inline-block">
@@ -204,7 +204,7 @@ const EnvelopeAnimation = ({ isVisible, animationsEnabled, score = 0 }: Envelope
                       You're Invited!
                     </h2>
                     <p className="text-sm md:text-base text-gray-700 italic leading-relaxed" style={{ fontFamily: 'Times, "Times New Roman", serif' }}>
-                      Come witness the moment we tie the knot and start our greatest adventure together — with love, laughter, and a lifetime of memories.
+                      Come witness the moment as we renew our vows — Reaffirms commitment to each other, celebrating enduring love and journey we had.
                     </p>
                     
                     {/* Decorative elements */}

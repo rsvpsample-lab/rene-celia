@@ -22,11 +22,14 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
 
     const getEventDescription = (eventName: string): string => {
         const descriptions: Record<string, string> = {
-            "Guest Arrival": "We highly encourage you to arrive an hour before the ceremony starts. Please be seated by 2:00 PM.",
-            "Wedding Ceremony": "Witness our vows and the beginning of our journey together as we exchange rings and promises at the Parish of the Holy Family.",
-            "Photo Session": "Capture beautiful moments with the newlyweds and wedding party. Professional photography session for cherished memories.",
+            "Guest Arrival": "We highly encourage you to arrive early. Please make your way to your seats by 2:30 PM.",
+            "Be Seated": "Please find your seats and prepare for the ceremony to begin.",
+            "Wedding Ceremony": "Witness as we renew our vows and celebrate our enduring love together at the Parish of the Holy Family.",
+            "Post Ceremony Pictorial": "Capture beautiful moments with the couple and wedding party. Professional photography session for cherished memories.",
             "Cocktail Hour": "Relax and mingle with other guests while enjoying refreshing drinks and light appetizers.",
-            "Reception": "Join us at Casa Dominguez for dinner, heartfelt toasts, and dancing as we celebrate our union together."
+            "Reception Program": "Join us at Casa Dominguez for the reception program as we celebrate together.",
+            "Dinner": "Enjoy a wonderful dinner with family and friends as we share this special celebration.",
+            "Party": "Let's celebrate with music, dancing and fun with Yellow Band!"
         };
         return descriptions[eventName] || "Join us for this special moment in our lives.";
     };
@@ -123,37 +126,58 @@ const container: React.CSSProperties = {
 
 const timelineEvents: TimelineEvent[] = [
     {
-        time: "1:00 PM",
+        time: "2:00 PM",
         event: "Guest Arrival",
         icon: Clock,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "2:00 PM", 
+        time: "2:30 PM",
+        event: "Be Seated",
+        icon: Clock,
+        hueA: 40,
+        hueB: 40,
+    },
+    {
+        time: "3:00 PM", 
         event: "Wedding Ceremony",
         icon: Heart,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "3:00 PM",
-        event: "Photo Session", 
+        time: "4:00 PM",
+        event: "Post Ceremony Pictorial", 
         icon: Camera,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "4:00 PM",
+        time: "4:30 PM",
         event: "Cocktail Hour",
         icon: Wine,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "5:30 PM",
-        event: "Reception",
+        time: "5:00 PM",
+        event: "Reception Program",
         icon: PartyPopper,
+        hueA: 40,
+        hueB: 40,
+    },
+    {
+        time: "6:00 PM",
+        event: "Dinner",
+        icon: Utensils,
+        hueA: 40,
+        hueB: 40,
+    },
+    {
+        time: "7:00 PM",
+        event: "Party",
+        icon: Music,
         hueA: 40,
         hueB: 40,
     },
