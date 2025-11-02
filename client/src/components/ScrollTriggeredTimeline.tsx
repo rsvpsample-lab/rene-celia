@@ -24,10 +24,10 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
         const descriptions: Record<string, string> = {
             "Guest Arrival": "We highly encourage you to arrive early. Please make your way to your seats by 2:30 PM.",
             "Be Seated": "Please find your seats and prepare for the ceremony to begin.",
-            "Wedding Ceremony": "Witness as we renew our vows and celebrate our enduring love together at the Parish of the Holy Family.",
+            "Wedding Ceremony": "Witness as we renew our vows and celebrate our enduring love together at Milagros Garden.",
             "Post Ceremony Pictorial": "Capture beautiful moments with the couple and wedding party. Professional photography session for cherished memories.",
             "Cocktail Hour": "Relax and mingle with other guests while enjoying refreshing drinks and light appetizers.",
-            "Reception Program": "Join us at Casa Dominguez for the reception program as we celebrate together.",
+            "Reception Program": "Join us at Milagros Garden for the reception program as we celebrate together.",
             "Dinner": "Enjoy a wonderful dinner with family and friends as we share this special celebration.",
             "Party": "Let's celebrate with music, dancing and fun with Yellow Band!"
         };
