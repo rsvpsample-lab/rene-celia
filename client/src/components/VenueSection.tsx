@@ -16,7 +16,7 @@ const VenueSection = () => {
       image: ceremonyImage,
       mapUrl: 'https://maps.app.goo.gl/bLNMFcNXt5rJMSaZ7',
       mapEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Milagros+Garden,Siling+Bata+Pandi+Bulacan&zoom=15',
-      description: 'Join us at Milagros Garden for our sacred wedding ceremony and celebration. This beautiful venue will witness our vows of eternal love as we begin our journey together.',
+      description: 'Join us at Milagros Garden for our sacred vow renewal ceremony and celebration. This beautiful venue will witness us renew our vows of eternal love as we celebrate 50 years of our journey together.',
       details: 'Arrival: 2:30 PM | Ceremony: 3:00 PM | Reception to follow. The celebration will last 6 hours. Please arrive on time to be seated before the ceremony begins.',
       startTime: '3:00 PM'
     }
