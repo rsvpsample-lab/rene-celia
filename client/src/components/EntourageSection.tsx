@@ -78,7 +78,7 @@ const EntourageSection = () => {
                 <h4 className="font-bold italic text-xs text-foreground mb-2">Senior Bridesmaids</h4>
                 <p className="text-foreground font-normal text-xs">Mrs. Evangeline Bernardo</p>
                 <p className="text-foreground font-normal text-xs">Mrs. Jonalyn Riel</p>
-                <p className="text-foreground font-normal text-xs">Ms. Rochell Bernardo</p>
+                <p className="text-foreground font-normal text-xs">Ms. Rochelle Bernardo</p>
                 <p className="text-foreground font-normal text-xs">Mrs. Annaliza Alcañices</p>
               </div>
             </div>
