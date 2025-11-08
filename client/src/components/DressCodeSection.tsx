@@ -47,7 +47,6 @@ const DressCodeSection = () => {
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
                       FOR PRINCIPAL SPONSORS
                     </h3>
-                    <p className="text-sm text-foreground/80 mb-3">(Parents and Principal Sponsors)</p>
                     <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
                       <span className="text-sm font-normal text-foreground">Black Suit / Formal Gown</span>
                     </div>
