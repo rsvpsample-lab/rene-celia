@@ -118,7 +118,7 @@ const EntourageSection = () => {
 
           {/* Wedding Officiant - Single column */}
           <div data-testid="section-officiant">
-            <p className="text-foreground font-normal text-xs">Father Alex Aquino</p>
+            <p className="text-foreground font-normal text-xs">Fr. Erasmo P. Lapig</p>
             <h4 className="font-display italic text-sm text-foreground mt-1">Officiating Priest</h4>
           </div>
         </motion.div>
